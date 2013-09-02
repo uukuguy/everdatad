@@ -1,0 +1,14 @@
+%% -*- erlang -*-
+{application, everdata,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  riak_core
+                 ]},
+  {mod, { everdata_app, []}},
+  {env, []}
+ ]}.

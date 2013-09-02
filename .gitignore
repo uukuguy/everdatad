@@ -1,0 +1,8 @@
+*.beam
+.eunit
+deps/*
+apps/everdata/ebin
+*~
+dev/*
+doc/*
+rel/everdata
